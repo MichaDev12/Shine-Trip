@@ -15,6 +15,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 /* MENU */
@@ -503,5 +504,63 @@
 .btn3 {
   background: #E7FAEF;
   color: #00688F;
+}
+
+/* Shine Trip Info */
+.five-columns,
+.social-media {
+  display: flex;
+}
+
+.column,
+footer p {
+  flex: 1;
+  padding: 3% 3%;
+}
+
+.column h3:not(.all-info) {
+    padding-bottom: 10%;
+}
+
+.social-media svg {
+  flex: 1;
+}
+
+.column .logo-footer {
+  color: #07484A;
+  text-shadow: 0px 4px 4px rgba(31, 25, 25, 0.00);
+  font-family: var(--playfairDisplayFont);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.column .all-info {
+  color: #07484A;
+  font-family: var(--openSansFont);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.column h3 {
+  color: #07484A;
+  font-family: var(--openSansFont);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.column p,
+footer p {
+  color: #07484A;
+  font-family: var(--openSansFont);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
