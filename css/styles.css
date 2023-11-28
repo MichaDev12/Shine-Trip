@@ -540,7 +540,7 @@ footer p {
 .column .all-info {
   color: #07484A;
   font-family: var(--openSansFont);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -549,7 +549,7 @@ footer p {
 .column h3 {
   color: #07484A;
   font-family: var(--openSansFont);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -559,7 +559,7 @@ footer p {
 footer p {
   color: #07484A;
   font-family: var(--openSansFont);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
