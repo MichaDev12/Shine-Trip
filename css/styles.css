@@ -18,6 +18,10 @@
 
 }
 
+section {
+  height: 100vh;
+}
+
 /* MENU */
 
 .header {
@@ -93,7 +97,7 @@
 
 .container:not(.comments-section) {
   display: flex;
-  padding: 5px 7%;
+  padding: 0 7%;
 }
 
 .columna:not(.client-comment, .stars, .imgFinal) {
@@ -138,7 +142,6 @@
 /* SOBRE NOSOTROS */
 .about-us {
   background-color: var(--white1);
-  padding-bottom: 35px;
 }
 
 .images {
@@ -183,7 +186,6 @@
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 50px;
 }
 
 .about-us h1 {
@@ -236,7 +238,7 @@
 
 .what-do-we-do {
   background-color: var(--gray);
-  padding: 2% 0 1% 0;
+  padding: 2% 0 0 0;
 }
 
 .w-text {
