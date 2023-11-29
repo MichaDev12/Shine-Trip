@@ -144,36 +144,9 @@ section {
   background-color: var(--white1);
 }
 
-.images {
-  position: relative;
-  width: 80%;
-  max-width: 600px;
-  height: 300px;
-}
-
-.img1,
-.img2,
-.img3 {
-  position: absolute;
+.images img {
   width: 100%;
-}
-
-.img1 {
-  top: 40%;
-  right: 75%;
-  width: 35%;
-}
-
-.img2 {
-  top: 35%;
-  left: 10%;
-  width: 80%;
-}
-
-.img3 {
-  top: 120%;
-  left: 73%;
-  width: 35%;
+  height: auto;
 }
 
 .list {
