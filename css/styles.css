@@ -22,6 +22,27 @@ section {
   height: 100vh;
 }
 
+.two-columns,
+.three-columns {
+  display: flex;
+  padding: 0 7%;
+}
+
+.tw-column {
+  flex: 1;
+  padding: 11% 0;
+}
+
+.th-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
 /* MENU */
 
 .header {
@@ -93,16 +114,6 @@ section {
 .imgBack {
   background-image: url('../img/persona1.png');
   background-size: cover;
-}
-
-.container:not(.comments-section) {
-  display: flex;
-  padding: 0 7%;
-}
-
-.columna:not(.client-comment, .stars, .imgFinal) {
-  flex: 1;
-  padding: 11% 0;
 }
 
 .quote {
@@ -199,16 +210,6 @@ section {
 }
 
 /* QUE HACEMOS */
-.columna2:not(.client1, .client2, .client3) {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  position: relative;
-}
-
 .what-do-we-do {
   background-color: var(--gray);
   padding-top: 2%;
@@ -325,12 +326,12 @@ section {
   padding: 50px 0;
 }
 
-.clients .container:not(.comments-section) {
+.clients .three-columns:not(.comments-section) {
   padding: 20px 7%;
   display: flex;
 }
 
-.clients .container .columna2 {
+.clients .three-columns .th-column {
   padding: 20px 40px;
   margin: 0 10px;
   flex-direction: column;
@@ -344,7 +345,7 @@ section {
   padding: 20px 0;
 }
 
-.clients .container .stars {
+.stars {
   text-align: right;
 }
 
@@ -382,7 +383,7 @@ section {
   background-size: cover;
 }
 
-.final .columna img {
+.final .tw-column img {
   width: 75%;
 }
 
@@ -452,13 +453,13 @@ section {
   display: flex;
 }
 
-.column,
+.f-column,
 footer p {
   flex: 1;
   padding: 3% 2%;
 }
 
-.column h3:not(.all-info),
+.f-column h3:not(.all-info),
 .social-media {
     padding-bottom: 10%;
 }
@@ -468,7 +469,7 @@ footer p {
   margin: 0 3%;
 }
 
-.column .logo-footer {
+.f-column .logo-footer {
   color: #07484A;
   text-shadow: 0px 4px 4px rgba(31, 25, 25, 0.00);
   font-family: var(--playfairDisplayFont);
@@ -478,7 +479,7 @@ footer p {
   line-height: normal;
 }
 
-.column .all-info {
+.f-column .all-info {
   color: #07484A;
   font-family: var(--openSansFont);
   font-size: 1.1rem;
@@ -487,7 +488,7 @@ footer p {
   line-height: normal;
 }
 
-.column h3 {
+.f-column h3 {
   color: #07484A;
   font-family: var(--openSansFont);
   font-size: 1.25rem;
@@ -496,7 +497,7 @@ footer p {
   line-height: normal;
 }
 
-.column p,
+.f-column p,
 footer p {
   color: #07484A;
   font-family: var(--openSansFont);
