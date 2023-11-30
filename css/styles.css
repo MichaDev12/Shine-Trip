@@ -35,7 +35,7 @@ section {
 .nav-title,
 .nav-links,
 .quote {
-  font-family: var(-- Estamos Aqui Para Hacer TuplayfairDisplayFont);
+  font-family: var(--playfairDisplayFont);
 }
 
 .short-p,
