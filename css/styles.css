@@ -211,7 +211,7 @@ section {
 
 .what-do-we-do {
   background-color: var(--gray);
-  padding: 2% 0 0 0;
+  padding-top: 2%;
 }
 
 .w-text {
@@ -235,28 +235,9 @@ section {
   font-size: 40px;
   font-weight: 700;
   line-height: normal;
+  padding-bottom: 2%;
 }
 
-.what-do-we-do svg:not(#rectangule) {
-  position: absolute;
-  width: 100%;
-  height: auto;
-}
-
-#rectangule {
-  z-index: 1;
-}
-
-#blueRectangule {
-  z-index: 2;
-  bottom: 0;
-}
-
-#circleBlue {
-  z-index: 3;
-  top: 13%;
-  left: 26%;
-}
 
 .w-h2 {
   z-index: 4;
@@ -285,20 +266,6 @@ section {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-#circleGray {
-  z-index: 5;
-  position: absolute;
-  top: 69%;
-  left: 38%;
-}
-
-#arrow {
-  z-index: 5;
-  position: absolute;
-  top: 73%;
-  left: 42.3%;
 }
 
 .w-img {
