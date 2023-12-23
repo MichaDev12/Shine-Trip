@@ -38,7 +38,7 @@ h2 {
   margin: 1.5vw;
 }
 
-.input{
+.input {
   width: 23vw;
   height: 4vw;
 }
@@ -51,7 +51,7 @@ h2 {
 .button input {
   margin-left: auto;
   border-radius: 5px;
-  background: #00688F;
+  background: #00688f;
   width: 14vw;
   height: 5vw;
   color: var(--white1);

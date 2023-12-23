@@ -1,63 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/fonts-and-colors.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../css/menu.css">
-  <link rel="stylesheet" href="../css/fonts-and-colors.css">
-  <link rel="stylesheet" href="../css/register.css">
-  <title>Document</title>
-</head>
+  <body>
+    <!-- Menu -->
+    <header class="header">
+      <div class="logo">
+        <h2 class="nav-title">Shine Trip</h2>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Trabaja con nosotros</a></li>
+          <li><a href="#">Inicia sesion</a></li>
+          <li><a href="#" class="principal">Crea una cuenta</a></li>
+          <li><a href="#">Contactanos</a></li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <a href="#" class="nav__links b1"><img src="../img/search.svg" /></a>
+        <a href="#" class="nav__links b2"><img src="../img/user.svg" /></a>
+      </div>
+    </header>
 
-<body>
-  <!-- Menu -->
-  <header class="header">
-    <div class="logo">
-      <h2 class="nav-title">Shine Trip</h2>
-    </div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#">Trabaja con nosotros</a></li>
-        <li><a href="#">Inicia sesion</a></li>
-        <li><a href="#" class="principal">Crea una cuenta</a></li>
-        <li><a href="#">Contactanos</a></li>
-      </ul>
-    </nav>
-    <div class="nav-buttons">
-      <a href="#" class="nav__links b1"><img src="../img/search.svg"></a>
-      <a href="#" class="nav__links b2"><img src="../img/user.svg"></a>
-    </div>
-  </header>
+    <!-- Principal -->
+    <div class="two-columns">
+      <div class="column">
+        <img src="../img/hombre-limpiando.png" />
+      </div>
+      <div class="column form">
+        <div class="register">
+          <form action="/procesar_registro" method="post">
+            <h2>¡Se parte de nuestro equipo!</h2>
+            <input
+              class="input"
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              required
+            />
 
-  <!-- Principal -->
-  <div class="two-columns">
-    <div class="column">
-      <img src="../img/hombre-limpiando.png">
-    </div>
-    <div class="column form">
-      <div class="register">
-        <form action="/procesar_registro" method="post">
-          <h2>¡Se parte de nuestro equipo!</h2>
-          <input class="input" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <input
+              class="input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
 
-          <input class="input" type="email" id="email" name="email" placeholder="Email" required>
+            <input
+              class="input"
+              type="text"
+              id="celular"
+              name="Celular"
+              placeholder="Celular"
+              required
+            />
 
-          <input class="input" type="text" id="celular" name="Celular" placeholder="Celular" required>
-          
-          <div class="button">
-            <input type="submit" value="Enviar">
-          </div>
-        </form>
+            <div class="button">
+              <input type="submit" value="Enviar" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
